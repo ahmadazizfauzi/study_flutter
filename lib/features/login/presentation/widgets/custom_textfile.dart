@@ -40,14 +40,14 @@ class CustomTextfile extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderSide: BorderSide(
               width: 1.0,
-              color: AppColors.neutral['grey']!,
+              color: AppColors.neutral['dark-grey']!,
             ),
             borderRadius: BorderRadius.circular(5.0),
           ),
           focusedBorder: OutlineInputBorder(
             borderSide: BorderSide(
               width: 1.0,
-              color: AppColors.neutral['grey']!,
+              color: AppColors.neutral['dark-grey']!,
             ),
             borderRadius: BorderRadius.circular(5.0),
           ),

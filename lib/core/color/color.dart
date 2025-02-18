@@ -9,6 +9,7 @@ class AppColors {
   // Neutral colors
   static const Map<String, Color> neutral = {
     'grey': Color(0xFFA7ABB6),
+    'dark-grey' : Color.fromARGB(0, 11, 11, 217),
     'half-grey': Color(0xFFD5DBE3),
     'black-grey': Color(0xFF969696),
     'dark-blue': Color(0xFF475569),

@@ -66,7 +66,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       backgroundColor: AppColors.neutral['dark-blue'],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(5.0))),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/home' );
+                  },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
                     child: Text(
