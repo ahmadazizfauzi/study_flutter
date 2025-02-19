@@ -78,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   )),
               const SizedBox(height: 8.0),
-              Text('Don\ t have an account ? ',
+              Text('Don t have an account ? ',
                   style: TextStyles.body.copyWith(fontSize: 18.0)),
               Text('Sign Up ',
                   style: TextStyles.body.copyWith(

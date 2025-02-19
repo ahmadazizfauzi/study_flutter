@@ -4,14 +4,15 @@ import 'package:study_flutter/core/styles/style.dart';
 
 class CustomTextfile extends StatelessWidget {
   const CustomTextfile(
-      {required this.controller,
+      {super.key,
+      required this.controller,
       required this.textInputType,
       required this.textInputAction,
       required this.hint,
       this.isObscure = false,
       this.hasSuffix = false,
       this.onPressed,
-      key});
+      });
 
   final TextEditingController controller;
   final TextInputType textInputType;
