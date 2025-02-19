@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: Routes.login, // Mengarahkan ke halaman home
+      initialRoute: Routes.newspage, // Mengarahkan ke halaman home
       routes: AppPages.pages, // Menggunakan routes dari AppPages
       
     );
