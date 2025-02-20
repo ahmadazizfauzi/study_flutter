@@ -22,12 +22,12 @@ class CustomBoxImageAssets extends StatelessWidget {
       width: width ?? double.infinity,
       height: height ?? 40,
       padding: padding,
-      child: child,
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(urlImage),
         ),
       ),
+      child: child,
     );
   }
 }
