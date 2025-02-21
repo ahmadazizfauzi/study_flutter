@@ -24,7 +24,7 @@ class AppColors {
     'white-grey': Color(0xFFF2F2F2),
   };
   static const Color white = Colors.white;
-  static const Color transparentColor = Colors.transparent;
+  static const Color transparentColor = Colors.black;
 }
 
 
